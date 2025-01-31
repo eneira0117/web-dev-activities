@@ -1,0 +1,47 @@
+body {
+    background: url('158739.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.calculator {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 100px;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buttons button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+    transform: scale(1.1);
+}
+
+p {
+    font-size: 15px;
+    margin-top: 10px;
+}
